@@ -3,6 +3,13 @@ body, h1, ul {
     margin: 0;
     padding: 0;
 }
+header{
+    font-family: Garamond, serif;
+    font-size: medium;
+    font-weight: bold;
+    margin: 15px;
+    text-align: center;
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -11,6 +18,7 @@ body {
 
 nav {
     background-color: darkgrey;
+    text-align: center;
 }
 
 nav ul {
@@ -27,5 +35,86 @@ nav a {
     text-decoration: none;
     color: white;
 }
+.home{
+    font-family: Garamond, serif;
+    font-size: medium;
+    margin: 15px;
+    text-align: center;
+}
+#home {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+.introduction, .purpose {
+    margin: 20px;
+}
 
-/* Add more styles as needed for your pages */
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+#home:hover{
+    transform: scale(1.1);
+}
+.project-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+
+/* Card header styling */
+.project-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+/* Card description styling */
+.project-description {
+    font-size: 14px;
+    color: black;
+    margin-top: 10px;
+}
+#skills {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for each skill */
+.skill {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Style for the skill title */
+.skill h2 {
+    font-size: 20px;
+    color: darkslategrey;
+}
+
+/* Style for the skill description */
+.skill p {
+    font-size: 16px;
+    color: #333;
+}
+
